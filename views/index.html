@@ -1,0 +1,82 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Page Title</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	</head>
+	<body>
+        <main>
+            <div class="top">
+                <span class="icon">
+                    <img src="https://drive.google.com/uc?export=view&id=0B1myX2Ur2lOQR2xXWDVJTzFOTjA" alt="">        
+                </span>
+				<div class="page-wrapper">
+				        <span class="plus_icon trigger" href="javascript:;">
+				            Join
+				            <img src="https://drive.google.com/uc?export=view&id=0B1myX2Ur2lOQVVlUVC1YSEZuOWM" alt="">
+				        </span>
+					</div>
+					<div class="modal-wrapper">
+				        <div class="modal">
+                            <div class="head">
+                                <a class="btn-close trigger" href="javascript:;"></a>
+                            </div>
+					    <div class="content">
+                            <h2>membership application form</h2>
+                            <div class="namewrapper">
+                                <label for="NAME">
+                                    <span>name</span>
+                                </label>
+                                <input id="NAME" type="text" name="NAME">
+                            </div>
+                            <div class="mailwrapper">
+                                <label for="MAIL">
+                                    <span>e-mail</span>
+                                </label>
+                                <input id="MAIL" type="email">
+                            </div>
+                            <span class="submit">submit</span>
+					    </div>
+					  </div>
+					</div>
+            </div>
+            <div class="second_title">
+                <span class="underLine"><a href="none">DESIGN</a></span>
+                <span class="underLine"><a href="none">GALLERY</a></span>
+                <span class="underLine"><a href="none">MORE</a></span>
+            </div>
+            <div class="scroll">
+               <div class="scroll_ab">
+                    <section role="page"><h1>22</h1></section>
+                    <section role="page"><h1>23</h1></section>
+                    <section role="page"><h1>24</h1></section>
+                </div>
+                
+            </div>
+            <div class="footer">
+                <span class="name">LEEROY</span>
+                <div class="footer_ab">
+                    <apan class="words">Think more, design less</apan>
+                    <span class="next">
+                        VEW PROFILE
+                        <img src="https://drive.google.com/uc?export=view&id=0B1myX2Ur2lOQbFV1WGFtNE1QMzg" alt="">
+                    </span>
+                </div>
+            </div>
+        </main>
+        
+		<script>
+            $( document ).ready(function() {
+                $('.trigger').click(function() {
+                    $('.modal-wrapper').toggleClass('open');
+                    $('.page-wrapper').toggleClass('blur');
+                    return false;
+                });
+            });
+        </script>
+	</body>
+</html>

@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css?family=Droid+Sans|Open+Sans+Condensed:300|PT+Sans+Narrow|Raleway:300,400|Titillium+Web:300,400,600|Ubuntu+Condensed");
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
+/* line 5, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 13, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 16, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+html {
+  font-size: 12px;
+  width: 100%;
+  height: 100%;
+  background-color: #EDEEEF; }
+
+/* line 22, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url("https://drive.google.com/uc?export=view&id=0B1myX2Ur2lOQSTA1WjExV3lleE0") 50% 50% no-repeat;
+  background-size: 36% auto;
+  overflow-y: hidden; }
+
+/* line 30, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+ol, ul, li {
+  list-style: none; }
+
+/* line 33, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 36, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 40, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* END : css reset */
+/* Drag color */
+/* line 48, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+::-moz-selection {
+  background-color: #333;
+  color: #fff; }
+
+/* line 52, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+::selection {
+  background-color: #333;
+  color: #fff; }
+
+/* border-box */
+/* line 58, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 65, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+main {
+  width: 100%;
+  padding: 80px 60px; }
+  /* line 68, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+  main .top {
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px; }
+    /* line 72, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+    main .top .icon {
+      flex: 1; }
+      /* line 74, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+      main .top .icon img {
+        height: 50px; }
+  /* line 81, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+  main .second_title span {
+    padding: 8px 0;
+    display: block;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 14px; }
+    /* line 86, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+    main .second_title span a {
+      z-index: -1; }
+  /* line 91, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+  main .scroll {
+    position: relative;
+    display: block;
+    margin: 70px 80% 120px;
+    width: 20%;
+    height: 80px; }
+    /* line 97, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+    main .scroll .scroll_ab {
+      position: absolute;
+      right: 20px;
+      z-index: -1; }
+  /* line 103, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+  main .footer {
+    width: 100%; }
+    /* line 105, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+    main .footer .name {
+      display: block;
+      margin-bottom: 5px;
+      font-family: 'Droid Sans', sans-serif;
+      font-size: 28px;
+      letter-spacing: 2px; }
+    /* line 112, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+    main .footer .footer_ab {
+      display: flex;
+      width: 100%; }
+      /* line 115, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+      main .footer .footer_ab .words {
+        flex: 1;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 20px; }
+      /* line 121, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+      main .footer .footer_ab .next {
+        display: inline-flex;
+        line-height: 31px;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 12px; }
+        /* line 126, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+        main .footer .footer_ab .next img {
+          height: 30px;
+          margin-left: 20px;
+          cursor: pointer; }
+
+/* line 136, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+.modal-wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 253, 0.75);
+  visibility: hidden;
+  opacity: 1;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out; }
+  /* line 148, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+  .modal-wrapper .modal {
+    border: 1px solid #2B2B2B;
+    width: 450px;
+    height: 300px;
+    display: block;
+    margin: 50% 0 0 -200px;
+    position: relative;
+    top: 50%;
+    left: 48%;
+    background: #fff;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; }
+    /* line 162, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+    .modal-wrapper .modal .head {
+      width: 100%;
+      height: 0px;
+      padding: 2.5em 5%;
+      overflow: hidden;
+      background: #2B2B2B; }
+      /* line 168, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+      .modal-wrapper .modal .head .btn-close {
+        width: 60px;
+        height: 60px;
+        display: block;
+        position: absolute;
+        top: 16px;
+        right: 8px;
+        padding: 5px; }
+      /* line 177, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+      .modal-wrapper .modal .head .btn-close::before, .modal-wrapper .modal .head .btn-close::after {
+        content: '';
+        width: 32px;
+        height: 6px;
+        display: block;
+        background: #fff; }
+      /* line 184, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+      .modal-wrapper .modal .head .btn-close::before {
+        margin-top: 6px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg); }
+      /* line 191, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+      .modal-wrapper .modal .head .btn-close::after {
+        margin-top: -6px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg); }
+  /* line 200, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+  .modal-wrapper .content {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    position: relative; }
+    /* line 205, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+    .modal-wrapper .content h2 {
+      text-align: center;
+      width: 100%;
+      margin: 20px 0 45px 0;
+      font-size: 24px; }
+    /* line 211, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+    .modal-wrapper .content .namewrapper {
+      margin-left: 40px; }
+      /* line 213, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+      .modal-wrapper .content .namewrapper input {
+        margin-left: 20px;
+        width: 70%;
+        border: none;
+        border-bottom: 1px solid #BBBBBB; }
+    /* line 221, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+    .modal-wrapper .content .mailwrapper {
+      margin: 10px 0 10px 40px; }
+      /* line 223, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+      .modal-wrapper .content .mailwrapper input {
+        margin-left: 13px;
+        width: 70%;
+        border: none;
+        border-bottom: 1px solid #BBBBBB; }
+    /* line 230, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+    .modal-wrapper .content .submit {
+      position: absolute;
+      top: 160px;
+      left: 203px;
+      padding: 10px 6px 8px 6px;
+      border: 1px solid #2B2B2B;
+      background-color: #2B2B2B;
+      color: #DFDFDF;
+      cursor: pointer; }
+
+/* line 243, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+.modal-wrapper.open {
+  opacity: 1;
+  visibility: visible; }
+
+/* line 247, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+.modal-wrapper.open .modal {
+  margin-top: -200px;
+  opacity: 1; }
+
+/* line 251, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+.page-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+  /* line 255, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+  .page-wrapper .plus_icon {
+    display: inline-flex;
+    position: absolute;
+    width: 67px;
+    top: 0px;
+    right: 0px;
+    line-height: 65px;
+    cursor: pointer;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 13px; }
+    /* line 265, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+    .page-wrapper .plus_icon img {
+      height: 60px; }
+
+/* line 271, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+.blur {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px); }
+
+/* line 286, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+.underLine a {
+  color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  text-shadow: 0 0 #141414, 0.08em 0 0 #fff, 0 0, -0.08em 0 0 #fff;
+  vertical-align: bottom; }
+  /* line 299, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+  .underLine a:after {
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)) center 1.08em/100% 2px no-repeat;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 400%;
+    will-change: transform;
+    z-index: -1; }
+  /* line 316, /Users/hiwilco/Desktop/works/publishing/second/public/style.scss */
+  .underLine a:hover:after {
+    animation: underline-gradient 6s linear infinite;
+    background-image: linear-gradient(90deg, rgba(122, 95, 255, 0.8) 15%, rgba(1, 255, 137, 0.6) 35%, rgba(122, 95, 255, 0.8) 85%); }
+
+@keyframes underline-gradient {
+  0% {
+    transform: translate3d(0%, 0%, 0); }
+  100% {
+    transform: translate3d(-75%, 0%, 0); } }
+
+/*# sourceMappingURL=style.css.map */
